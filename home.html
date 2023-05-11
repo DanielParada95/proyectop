@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenidoheader">
+                    <h1>PF</h1>
+                    <nav id="nav" class="">
+                        <ul id="link">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#miinformacion" onclick="seleccionar(this)">MI INFORMACION</a></li>
+                            <li><a href="#habilidades" onclick="seleccionar(this)">HABILIDADES</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                        </ul>
+                    </nav>
+                    <div id="icono-nav" onclick="responsivemenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="redes">
+                        <a href="https://www.instagram.com/nano.parada/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/DanielParada95" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/daniel-parada-813458216/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Hola, mi nombre es Daniel Parada, Desarrollador Web</h2>
+                <p class="descripcion">
+                    En mi portfolio, encontrarás una selección de mis trabajos más destacados, donde podrás apreciar mi enfoque creativo, atención al detalle y habilidades. Me esfuerzo por crear soluciones innovadoras y eficientes que cumplan con los objetivos y satisfagan las necesidades de los usuarios.
+                <p>
+                <p class="descripcion">Mi objetivo es colaborar con equipos talentosos y dinámicos, donde pueda adquirir experiencia y seguir creciendo profesionalmente. Estoy abierto a nuevos desafíos y siempre dispuesto a aprender cosas nuevas.
+                </p>
+                <p class="descripcion">
+                    Si estás interesado en mi trabajo, no dudes en ponerse en contacto conmigo. Estaré encantado de hablar contigo.
+                    ¡Gracias por visitar mi portfolio y por considerar mi trabajo!
+                </p>
+                <a href="#portfolio">ir a portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="miinformacion">
+        <div class="contenedor-foto">
+            <img src="./0f1cd82b-96c7-459a-92af-479d5c123e10.jpg" alt="">
+        </div>
+        <div class="miinformacion">
+            <p class="tituloseccion">Mi Informacion</p>
+            <h2>Daniel Parada</h2>
+            <h3>Desarrollador Web</h3>
+            <p>Educación: Secundario completo, EPET N°13 (Bienes y servicios)</p>
+            <p>Educación: Analista y Licenciado en Sistemas (FCQyN - UNaM, sin terminar).</p>
+            <p>Experiencia: Instituto de formacion de Oficiales de Prefectura, 2019-2021</p>
+            <p>Formación adicional: Curso introduccion a la programacion, Silicon Misiones (certificado obtenido)</p>
+            <p>Formación adicional: Curso Programacion Web Full Stack (certificado obtenido)</p>
+            <a href="./Parada, Daniel.pdf" target="_blank">Ver CV</a>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <h3 class="tituloseccion">Mis Habilidades</h3>
+        <div class="fila">
+            <div class="habilidades">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Programacion</h4>
+                <hr>
+                <ul class="servicio">
+                    <li>Intermedio</li>
+                </ul>
+                <p>Adquiridos en base a mis estudios en dicha materia, y por los cursos realizados.</p>
+            </div>
+            <div class="habilidades">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Adm. de bienes y servicios</h4>
+                <hr>
+                <ul class="servicio">
+                    <li>Basico</li>
+                </ul>
+                <p>Una base sólida, lograda con mis años en la secundaria, además de estar acompañado de dibujo técnico.</p>
+            </div>
+            <div class="habilidades">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Base de datos</h4>
+                <hr>
+                <ul class="servicio">
+                    <li>Basico</li>
+                </ul>
+                <p>En el curso realizado de Programación Web Full Stack y en el instituto de formación de oficiales de PNA, me fueron dando herramientas para adquirir experiencia</p>
+            </div>
+            <div class="habilidades">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Ingles</h4>
+                <hr>
+                <ul class="servicio">
+                    <li>Intermedio</li>
+                </ul>
+                <p>Idioma extranjero el cual es más frecuente usarlo en el ámbito de programación</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenedor-skill" id="skill">
+        <h3>Habilidades de programacion</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>HTML y CSS</p>
+                <span class="porcentaje">100%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>JavaScript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class="barra-progreso2"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>TypeScript</p>
+                <span class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="ts" class="barra-progreso3"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Base de Datos</p>
+                <span class="porcentaje">60%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class="barra-progreso4"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Node.js</p>
+                <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="node" class="barra-progreso5"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>PHP</p>
+                <span class="porcentaje">60%</span>
+            </div>
+            <div class="barra">
+                <div id="php" class="barra-progreso6"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>React.js</p>
+                <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="react" class="barra-progreso7"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Angular</p>
+                <span class="porcentaje">60%</span>
+            </div>
+            <div class="barra">
+                <div id="angular" class="barra-progreso8"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Ruby</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="ruby" class="barra-progreso9"></div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="portfolio">
+        <h3 class="tituloseccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./port.PNG" alt="">
+                <div class="info">
+                    <h4>Integrador</h4>
+                    <p>Mi primer gran Proyecto</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./fachipiola.PNG" alt="">
+                <div class="info">
+                    <h4>Menu Plegable</h4>
+                    <p>Añadi Menu Plegable</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./security.JPG" alt="">
+                <div class="info">
+                    <h4>Seguridad</h4>
+                    <p>Añadi seguridad al integrador</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Derechos reservados - 2023</p>
+        <p>Mail: Parada.D95@gmail.com | Teléfono: +543754414779</p>
+        <div class="redes">
+            <a href="https://www.instagram.com/nano.parada/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/DanielParada95" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/daniel-parada-813458216/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
